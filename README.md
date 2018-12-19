@@ -6,7 +6,7 @@ Four restart the game just use the reload page button of your browser.
 
 You can use your own sound, just create `sound` folder in the root and put souds files to it whith names `blue.mp3` and `red.mp3`. You can use `.mp3`, `.ogg` or `.wav` files.
 
-Demo is available on http://dev.shadowhd.ru/TwoPlayersReaction/
+Demo is available on http://dev.shadowhd.ru/TwoPlayersReaction/ (Attention: loud sounds)
 
 ---
 
@@ -24,4 +24,4 @@ rus
 
 Если кто-то знает английский — может помочь проекту, запилив нормальный перевод для Ридми файла.
 
-Демка: http://dev.shadowhd.ru/TwoPlayersReaction/
+Демка: http://dev.shadowhd.ru/TwoPlayersReaction/ (Аккуратнее: громкие звуки)
