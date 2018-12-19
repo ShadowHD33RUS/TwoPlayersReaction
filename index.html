@@ -14,12 +14,15 @@
 			div {
 				height: 50%;
 				width: 100%;
+				box-sizing: border-box;
 			}
 			div.blue {
-				background-color: #00F;
+				background-color: #056CFF;
+				border-bottom: #8ABAFF solid 5px;
 			}
 			div.red {
-				background-color: #F00;
+				background-color: #FF4255;
+				border-top: #FF8A8D solid 5px;
 			}
 			div.white {
 				background-color: #FFF;
@@ -60,5 +63,5 @@ Your browser does not support the audio element.
   <source src="sound/red.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
-<div class="white" id="blue"></div><div class="white" id="red"></div></body>
+<div class="blue white" id="blue"></div><div class="red white" id="red"></div></body>
 </html>
