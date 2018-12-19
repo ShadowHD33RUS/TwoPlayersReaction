@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Two Players Reaction</title>
+
+		<style type="text/css">
+			html,body {
+				height: 100%;
+				margin: 0;
+			}
+			div {
+				height: 50%;
+				width: 100%;
+			}
+			div.blue {
+				background-color: #00F;
+			}
+			div.red {
+				background-color: #F00;
+			}
+			div.white {
+				background-color: #FFF;
+			}
+		</style>
+		<script>
+			var haveWinner = false;
+			var 
+		
+			function clickDiv(div){
+				if (!haveWinner) {
+					div.className=new String(div.id);
+					haveWinner = true;
+				}
+			}
+		</script>
+	</head>
+
+<body>
+<audio id="audioBlue" preload="auto" source="sound/blue.mp3"></audio>
+<audio id="audioRed" preload="auto" source="sound/red.mp3"></audio>
+<div class="white" id="blue" onClick=clickDiv(this)></div><div class="white" id="red" onClick=clickDiv(this)></div></body>
+
+
+</html>
