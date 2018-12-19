@@ -26,6 +26,16 @@
 			}
 		</style>
 		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var blueButton = document.getElementById("blue");
+				blueButton.addEventListener("touchstart", function (){ clickDiv(blueButton) }, false);
+				blueButton.addEventListener("click", function (){ clickDiv(blueButton) });
+				
+				var redButton = document.getElementById("red");
+				redButton.addEventListener("touchstart", function (){ clickDiv(redButton) }, false);
+				redButton.addEventListener("click", function (){ clickDiv(redButton) });
+			
+			});
 			var haveWinner = false;
 			function clickDiv(div){
 				if (!haveWinner) {
@@ -50,5 +60,5 @@ Your browser does not support the audio element.
   <source src="sound/red.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
-<div class="white" id="blue" onClick=clickDiv(this)></div><div class="white" id="red" onClick=clickDiv(this)></div></body>
+<div class="white" id="blue"></div><div class="white" id="red"></div></body>
 </html>
