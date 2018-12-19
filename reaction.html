@@ -8,6 +8,9 @@
 				height: 100%;
 				margin: 0;
 			}
+			audio {
+				display:none;
+			}
 			div {
 				height: 50%;
 				width: 100%;
@@ -24,7 +27,6 @@
 		</style>
 		<script>
 			var haveWinner = false;
-		
 			function clickDiv(div){
 				if (!haveWinner) {
 					document.getElementById('audio-'+div.id).play()
@@ -38,13 +40,15 @@
 <body>
 <audio id="audio-blue" controls>
   <source src="sound/blue.mp3" type="audio/mpeg">
+  <source src="sound/blue.ogg" type="audio/ogg">
+  <source src="sound/blue.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 <audio id="audio-red" controls>
+  <source src="sound/red.mp3" type="audio/mpeg">
+  <source src="sound/red.ogg" type="audio/ogg">
   <source src="sound/red.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 <div class="white" id="blue" onClick=clickDiv(this)></div><div class="white" id="red" onClick=clickDiv(this)></div></body>
-
-
 </html>
