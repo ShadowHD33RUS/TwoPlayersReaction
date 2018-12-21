@@ -6,6 +6,8 @@ Four restart the game just use the reload page button of your browser.
 
 You can use your own sound, just create `sound` folder in the root and put souds files to it whith names `blue.mp3` and `red.mp3`. You can use `.mp3`, `.ogg` or `.wav` files.
 
+The project uses sound effects from this source: https://freesound.org/people/Leszek_Szary/
+
 Demo is available on http://dev.shadowhd.ru/TwoPlayersReaction/ (Attention: loud sounds)
 
 ---
