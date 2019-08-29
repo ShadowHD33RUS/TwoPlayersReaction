@@ -1,10 +1,10 @@
 # TwoPlayersReaction
 
-Simple only-HTML game for who quickly touch (or click on) the screen.
+Simple only-HTML game for fast clicking the screen.
 
-Four restart the game just use the reload page button of your browser.
+For restart the game just use the reload page button of your browser.
 
-You can use your own sound, just create `sound` folder in the root and put souds files to it whith names `blue.mp3` and `red.mp3`. You can use `.mp3`, `.ogg` or `.wav` files.
+You can use your own sound, just create `sound` folder in the root and put souds files into whith names `blue.mp3` and `red.mp3`. It can be `.mp3`, `.ogg` or `.wav` files.
 
 The project uses sound effects from this source: https://freesound.org/people/Leszek_Szary/
 
